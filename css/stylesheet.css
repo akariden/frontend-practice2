@@ -1,0 +1,69 @@
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  line-height: 1.6;
+}
+
+.lg-container {
+  background: hsl(257, 42%, 49%) url(../images/bg-mobile.svg) no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  padding: 40px;
+}
+
+.logo-wrapper {
+  text-align: left;
+}
+
+.logo {
+  height: 2rem;
+}
+
+.mock-img {
+  width : 100%;
+  margin: 40px 0;
+}
+
+.heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.btn-wrapper {
+  margin: 20px 0 60px;
+}
+
+.register-btn {
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+	background-color: #ffffff;
+	border-radius: 1rem;
+  border-style: none;
+	display: inline-block;
+	cursor: pointer;
+	color: hsl(257, 42%, 49%);
+	font-size: 0.8rem;
+	padding:0.6rem 70px;
+	text-decoration:none;
+}
+
+.register-btn:hover {
+	background-color:#f6f6f6;
+}
+.register-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.circle{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid 1px #ffffff;
+  text-align:center;
+  line-height: 30px;
+  vertical-align: middle;
+  margin: 3px;
+}
