@@ -10,7 +10,8 @@ body {
   background: hsl(257, 42%, 49%) url(../images/bg-mobile.svg) no-repeat;
   background-size: contain;
   text-align: center;
-  padding: 40px;
+  padding: 50px;
+  max-width: 1200px;
 }
 
 .logo-wrapper {
@@ -70,19 +71,24 @@ body {
 }
 
 @media screen and (min-width: 960px) {
+  html {
+    font-size: 130%;
+  }
+
   body {
-    font-size: 1rem;
+    background: hsl(257, 42%, 49%) url(../images/bg-desktop.svg) no-repeat;
+    width: 100%;
   }
 
   .lg-container {
-    background: hsl(257, 42%, 49%) url(../images/bg-desktop.svg) no-repeat;
+    background: none;
     text-align: left;
   }
 
   .mock-img {
     width : 50%;
     float: left;
-    margin-right: 60px;
+    margin-right: 70px;
   }
 
   .text-wrapper {
@@ -91,13 +97,13 @@ body {
   }
 
   .heading {
-    width: 50%;
-    min-width: 300px;
-    max-width: 350px;
+    width: 80%;
+    max-width: 400px;
   }
 
   .content {
-    max-width: 460px;
+    max-width: 500px;
+    font-size: 0.8rem;
   }
   .sns-icons {
     clear: both;
